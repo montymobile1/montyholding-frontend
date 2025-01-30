@@ -31,11 +31,11 @@
                 </div>
             </div>
             <div class="bg-[#7C8F7F] bg-opacity-[0.3] h-[1px] w-full mt-12 mb-10"></div> -->
-            <p class="text-center max-lg:text-[14px] text-base">Copyright © 2024 Monty Holding</p>
+            <p class="text-center max-lg:text-[14px] text-base">Copyright © {{ date.getFullYear() }} Monty Holding</p>
         </div>
     </section>
 </template>
 
 <script setup>
-
+    const date = new Date();
 </script>

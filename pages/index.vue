@@ -9,7 +9,7 @@
         description="A global leader in telecommunications, Monty Mobile delivers innovative technology and communication solutions to mobile network operators, enterprises, and service providers worldwide."
         :directors="BODMontyMobile" :button="{ link: 'https://montymobile.com', text: 'Visit Monty Mobile Website' }" />
         <BoardOfDirectors :colored="true" :dark="true" title="Monty Finance board of directors"
-        description="Monty Finance is a local financial technology service provider. They are dedicated to meeting the needs of underserved,and unbanked communities through a comprehensive range of services across various verticals and markets."
+        description="Monty Finance is a local financial technology service provider. They are dedicated to meeting the needs of underserved, and unbanked communities through a comprehensive range of services across various verticals and markets."
         :directors="BODMontyFinance"
         :button="{ link: 'https://montyfinance.co.uk', text: 'Visit Monty Finance Website' }" />
     </div>
@@ -27,36 +27,13 @@
 <script setup>
 const BODMontyMobile = [
     {
-        image: null,
-        name: null,
-        position: null,
-        linkedIn: null
-    },
-    {
-        image: null,
-        name: null,
-        position: null,
-        linkedIn: null
-    },
-    {
         image: '/img/mountasser-hachem-s.webp',
         name: 'Mountasser Hachem',
         position: 'Founder and Chairman',
         linkedIn: 'https://www.linkedin.com/in/mountasser-hachem-877a7a2a/',
         bio: 'Mr. Hachem known as Monty, a visionary entrepreneur admired by colleagues and industry peers, is the driving force behind Monty Holding. His vision and determination sparked the company’s journey over two decades ago, establishing it as a key player in the telecom industry. Under his leadership, Monty Holding has expanded into a global leader with a presence across multiple continents. Monty\'s exceptional business acumen is showcased in his transformation of Comium, a mobile operator on the brink of collapse. His exceptional ability to recognize potential and transform struggling businesses into thriving enterprises is unmatched. A natural innovator, Monty has shifted his focus to the growing FinTech sector. His forward-thinking approach keeps him at the forefront of this industry, propelling the company towards a future defined by disruption.'
     },
-    {
-        image: null,
-        name: null,
-        position: null,
-        linkedIn: null
-    },
-    {
-        image: null,
-        name: null,
-        position: null,
-        linkedIn: null
-    },
+
     {
         image: '/img/biola-s.webp',
         name: 'Biola Alabi',
@@ -97,43 +74,19 @@ const BODMontyMobile = [
 
 const BODMontyFinance = [
     {
-        image: null,
-        name: null,
-        position: null,
-        linkedIn: null
-    },
-    {
-        image: null,
-        name: null,
-        position: null,
-        linkedIn: null
-    },
-    {
         image: '/img/monty-c.webp',
         name: 'Mountasser Hachem',
         position: 'CEO',
         linkedIn: 'https://www.linkedin.com/in/mountasser-hachem-877a7a2a/',
         bio: 'Mr. Hachem known as Monty, a visionary entrepreneur admired by colleagues and industry peers, is the driving force behind Monty Holding. His vision and determination sparked the company’s journey over two decades ago, establishing it as a key player in the telecom industry. Under his leadership, Monty Holding has expanded into a global leader with a presence across multiple continents. Monty\'s exceptional business acumen is showcased in his transformation of Comium, a mobile operator on the brink of collapse. His exceptional ability to recognize potential and transform struggling businesses into thriving enterprises is unmatched. A natural innovator, Monty has shifted his focus to the growing FinTech sector. His forward-thinking approach keeps him at the forefront of this industry, propelling the company towards a future defined by disruption.'
     },
-    {
-        image: null,
-        name: null,
-        position: null,
-        linkedIn: null
-    },
-    {
-        image: null,
-        name: null,
-        position: null,
-        linkedIn: null
-    },
-    {
-        image: '/img/mike-c.webp',
-        name: 'Mike Quintanilla',
-        position: 'Board Member',
-        linkedIn: 'https://www.linkedin.com/in/michaelquintanilla/',
-        bio: 'Mike Quintanilla is a leader in fintech and blockchain technology, with a proven track record across several high-impact roles in the USA. At SoftServe, as the Director of Blockchain & BaaS, he led the transformation of payment systems by integrating advanced technologies and collaborating with industry giants such as AWS, Azure, and GCP. Prior to this, as Senior Director of Fintech & Innovation at Blockchains, Inc., Mike enhanced AML/CFT frameworks and focused on innovative solutions within the digital asset ecosystem. His role as Chief Innovation Officer at GenuBank saw him overhaul the bank\'s technology infrastructure, implementing real-time payment services and crypto compliance initiatives. His earlier experience includes strategic positions at First Horizon Bank, where he advanced blockchain integration and cryptocurrency initiatives, and at Susquehanna Bank and Mitsubishi UFJ Trust & Banking Corporation, where he made significant contributions to FX trading and client relations. Mike\'s extensive background in fintech, blockchain, and regulatory compliance underscores his expertise in driving technological and strategic advancements in the financial sector.'
-    },
+    // {
+    //     image: '/img/mike-c.webp',
+    //     name: 'Mike Quintanilla',
+    //     position: 'Board Member',
+    //     linkedIn: 'https://www.linkedin.com/in/michaelquintanilla/',
+    //     bio: 'Mike Quintanilla is a leader in fintech and blockchain technology, with a proven track record across several high-impact roles in the USA. At SoftServe, as the Director of Blockchain & BaaS, he led the transformation of payment systems by integrating advanced technologies and collaborating with industry giants such as AWS, Azure, and GCP. Prior to this, as Senior Director of Fintech & Innovation at Blockchains, Inc., Mike enhanced AML/CFT frameworks and focused on innovative solutions within the digital asset ecosystem. His role as Chief Innovation Officer at GenuBank saw him overhaul the bank\'s technology infrastructure, implementing real-time payment services and crypto compliance initiatives. His earlier experience includes strategic positions at First Horizon Bank, where he advanced blockchain integration and cryptocurrency initiatives, and at Susquehanna Bank and Mitsubishi UFJ Trust & Banking Corporation, where he made significant contributions to FX trading and client relations. Mike\'s extensive background in fintech, blockchain, and regulatory compliance underscores his expertise in driving technological and strategic advancements in the financial sector.'
+    // },
     {
         image: '/img/randa-c.webp',
         name: 'Randa Naboulsi',
