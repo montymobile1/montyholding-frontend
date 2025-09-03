@@ -1,6 +1,6 @@
 <template>
     <section class="bg-black pt-10 pb-10 lg:pt-20 lg:pb-28 text-white">
-        <div class="container"> 
+        <div class="container">  
             <SectionIntro title="About Us"
                 description="Founded in 1998 by visionary entrepreneur Mountasser Hachem, Monty Holding has rapidly evolved into a global powerhouse, reshaping industries and exceeding expectations. From our UK headquarters, we're not just delivering solutions but we're architecting the future for our clients and partners."
                 class="text-white" />
