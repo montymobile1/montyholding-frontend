@@ -55,7 +55,7 @@
         :class="`fixed lg:relative w-full h-full lg:w-auto lg:h-auto bg-black lg:bg-transparent top-0 transition-all ${menuOpen ? 'left-0' : '-left-full lg:left-auto'}`">
         <ul
           class="flex flex-col items-center text-xl font-bold lg:text-base lg:font-normal lg:flex-row px-4 lg:px-0 mt-[90px] lg:mt-0 gap-5">
-          <li><a @click="goTo($event, 'about-us')" href="#" class="hover:text-[#bc945d]">About ussss</a></li>
+          <li><a @click="goTo($event, 'about-us')" href="#" class="hover:text-[#bc945d]">About us</a></li>
           <li><a @click="goTo($event, 'board-of-directors')" href="#" class="hover:text-[#bc945d]">Board of
               directors</a>
           </li>
