@@ -10,5 +10,16 @@ export default defineNuxtConfig({
     families: {
       'Nunito Sans': '200..700'
     }
+  },
+  app: {
+    head: {
+      script: [
+        {
+          src: "https://analytics.ahrefs.com/analytics.js",
+          async: true,
+          "data-key": "MHSTUFDhMG2v5MJHrVtu6Q"
+        }
+      ]
+    }
   }
 })
