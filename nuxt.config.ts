@@ -15,9 +15,11 @@ export default defineNuxtConfig({
     head: {
       script: [
         {
-          src: "https://analytics.ahrefs.com/analytics.js",
+          src: 'https://analytics.ahrefs.com/analytics.js',
           async: true,
-          "data-key": "MHSTUFDhMG2v5MJHrVtu6Q"
+          'data-key': 'MHSTUFDhMG2v5MJHrVtu6Q',
+          integrity: 'sha384-W1wjYK8T9Gz7xq6XpVAitAMIbyk3r/jlMxGQAdL3M058ajAAUoV9TVg2+zPMr3jR%',
+          crossorigin: 'anonymous'
         }
       ]
     }
